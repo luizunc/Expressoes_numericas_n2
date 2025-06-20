@@ -19,8 +19,9 @@ int precedencia(char op) {
         default: return 0;
     }
 }
-
+//
 // Função para converter infixa para pós-fixa
+//
 char *getFormaPosFixa(char *Str) {
     static char saida[MAX];
     char pilha[MAX];
